@@ -34,10 +34,6 @@ const Insta = () => {
           justify-content: space-between;
         `}
       >
-        <TwitterShareButton
-          url={'https://facebook.com/saurabhnemade'}
-          options={{ text: '#reactjs is awesome', via: 'saurabhnemade' }}
-        />
         <TwitterHashtagButton tag={'100daysofcode'} />
       </div>
       <h2>Instagram posts from @{username}</h2>

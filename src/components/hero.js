@@ -20,7 +20,7 @@ const TextBox = styled('div')`
   width: 100%;
 
   h1 {
-    text-shadow: 1px 1px 3px green;
+    text-shadow: 1px 1px 3px purple;
   }
 
   p,
@@ -50,10 +50,8 @@ const Hero = () => {
     <ImageBackground Tag="section" fluid={image.sharp.fluid}>
       <TextBox>
         <div>
-          <h1>Hello!</h1>
-          <h4>
-            After finishing this project I will be making a portfolio site!
-          </h4>
+          <h1>antyabstract</h1>
+          <h4>Thanks for checking out my proto personal site!</h4>
         </div>
       </TextBox>
     </ImageBackground>

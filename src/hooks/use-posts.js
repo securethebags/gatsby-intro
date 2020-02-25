@@ -14,7 +14,7 @@ const usePosts = () => {
                 fluid(
                   maxWidth: 100
                   maxHeight: 100
-                  duotone: { shadow: "#663399", highlight: "#ddbbff" }
+                  duotone: { shadow: "#682218", highlight: "#F8BE3D" }
                 ) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
