@@ -8,9 +8,9 @@ export default () => {
     <>
       <Layout>
         <h2>Projects page coming soon!</h2>
-        <ReadLink to={'https://github.com/securethebags'}>
+        <a href="https://github.com/securethebags">
           For now check out my github repos!
-        </ReadLink>
+        </a>
       </Layout>
     </>
   );
