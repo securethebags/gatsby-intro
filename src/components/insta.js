@@ -2,18 +2,7 @@ import React from 'react';
 import Image from 'gatsby-image';
 import { css } from '@emotion/core';
 import useInstagram from '../hooks/use-instagram';
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
-  TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
-} from 'react-twitter-embed';
+import { TwitterHashtagButton, TwitterTweetEmbed } from 'react-twitter-embed';
 
 const Insta = () => {
   const photos = useInstagram();

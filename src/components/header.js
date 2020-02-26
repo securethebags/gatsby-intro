@@ -30,15 +30,15 @@ const Header = () => (
     `}
   >
     <NavLink to="/" fontWeight="bold">
-      A and J
+      Home
     </NavLink>
     <nav
       css={css`
         margin-top: 0px;
       `}
     >
-      <NavLink to="/" activeClassName="current-page">
-        Home
+      <NavLink to="/blog" activeClassName="current-page">
+        Blog
       </NavLink>
       <NavLink to="/about" activeClassName="current-page">
         About

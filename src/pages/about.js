@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import Insta from '../components/insta';
 
 export default () => (
   <Layout>
@@ -11,6 +12,7 @@ export default () => (
       developer from NYC. I am currently interviewing for frontend internship
       positions.
     </p>
+    <Insta></Insta>
     <Link to="/">&larr; head back home </Link>
   </Layout>
 );
