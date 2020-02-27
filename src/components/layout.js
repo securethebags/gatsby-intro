@@ -19,11 +19,9 @@ const Layout = ({ children }) => {
           }
           html,
           body {
-            height: 100%;
-            width: 100%;
             margin: 0;
             color: black;
-            background-color: antiquewhite;
+            background-color: white;
             font-size: 18px;
             line-height: 1.4;
           }
