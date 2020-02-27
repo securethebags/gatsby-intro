@@ -39,8 +39,7 @@ const TextBox = styled('div')`
   a {
     color: #222;
     margin-top: 0;
-    background-color: black;
-    opacity: 0.7;
+    margin-top: 5%;
   }
   a {
     margin-top: 0.5rem;
