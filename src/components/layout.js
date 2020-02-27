@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           h6 {
             color: #122;
             line-height: 1.1;
+            margin-top: 2rem;
             + * {
               margin-top: 0.5rem;
             }
@@ -59,9 +60,9 @@ const Layout = ({ children }) => {
       <Header></Header>
       <main
         css={css`
-          margin: 2rem auto 4rem;
+          margin: 0rem auto 0rem;
           max-width: 90vw;
-          width: 550px;
+          width: 650px;
         `}
       >
         {children}
