@@ -66,6 +66,10 @@ const Hero = () => {
           <div>
             <h1>antyabstract</h1>
             <h4>Thanks for checking out my proto personal site!</h4>
+            <p>
+              This site will be updated often as I add new features and change
+              the layout.
+            </p>
           </div>
         </TextBox>
       </ImageBackground>

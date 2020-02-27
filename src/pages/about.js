@@ -11,8 +11,8 @@ export default () => (
       My name is Anthony Jimenez and I work with computers every day. I am a web
       developer from NYC. I am currently interviewing for frontend internship
       positions.
+      <Link to="/">&larr; head back home </Link>
     </p>
     <Insta></Insta>
-    <Link to="/">&larr; head back home </Link>
   </Layout>
 );
