@@ -9,10 +9,11 @@ export default () => (
     <p>
       {' '}
       My name is Anthony Jimenez and I work with computers every day. I am a web
-      developer from NYC. I am currently interviewing for frontend internships
-      positions (it's been going well!)
+      developer from NYC with a passion for JavaScript. I am currently pursuing
+      my degree in Programming and Software Development. <br />
       <Link to="/">&larr; head back home </Link>
+      <br /> <br />
+      <Insta></Insta>
     </p>
-    <Insta></Insta>
   </Layout>
 );

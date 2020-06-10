@@ -8,7 +8,7 @@ export default () => {
     <>
       <Layout>
         <h2>Projects page coming soon!</h2>
-        <a href="https://github.com/securethebags">
+        <a href="https://github.com/anthonymjimenez">
           For now check out my github repos.
         </a>
       </Layout>
